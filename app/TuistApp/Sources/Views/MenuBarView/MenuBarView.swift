@@ -20,6 +20,17 @@ struct MenuBarView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
+            Text("Tuist")
+                .font(.headline)
+                .fontWeight(.medium)
+                .padding(.bottom, 4)
+                .padding(.horizontal, 8)
+            
+            AppPreviews()
+                .padding(.horizontal, 8)
+                .padding(.top, 4)
+                .padding(.bottom, 8)
+            
             simulatorsView
 
             Divider()
